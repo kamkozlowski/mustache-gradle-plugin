@@ -6,7 +6,7 @@ This gradle plugin allows you to define one or more contexts in YAML and push th
 during your gradle build
 
 # Usage
-All you need to make the plugin work is use template function where you define template, output target and properties. At this moment plugin not present in maven repostiry, you have to build it and export to your local repository.
+All you need to make the plugin work is use ```template``` function where you define template, output target and properties. At this moment plugin not present in maven repostiry, you have to build it and export to your local repository.
 ```
 buildscript {
     repositories {
