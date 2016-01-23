@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+dependencies {
+    compile gradleApi()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    compile 'com.github.spullara.mustache.java:compiler:0.9.1'
+    compile 'org.yaml:snakeyaml:1.13'
+}
+
+group = 'com.github.kamkozlowski.gradle'
+version = '0.0.1'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    baseName = "${project.name}"
+
+    manifest {
+        attributes['Implementation-Title'   ] = "${group}.${project.name}-${project.version}"
+        attributes['Implementation-Version' ] = project.version
+        attributes['Implementation-Vendor'  ] = 'Kamil Kozlowski'
+    }
+}
