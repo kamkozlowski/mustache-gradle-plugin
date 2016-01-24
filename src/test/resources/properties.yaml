@@ -1,0 +1,12 @@
+---
+products:
+  -  name: Book
+     price: '$10'
+     features:
+        - description: 'feature1'
+        - description: 'feature2'
+  -  name: Car
+     price: '$100'
+     features:
+        - description: 'feature1'
+...
