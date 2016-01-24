@@ -1,6 +1,6 @@
 # gradle-mustache-plugin
 [![Build Status](https://travis-ci.org/kamkozlowski/gradle-mustache-plugin.svg?branch=master)](https://travis-ci.org/kamkozlowski/gradle-mustache-plugin)
-[![codecov.io](https://codecov.io/github/kamkozlowski/gradle-mustache-plugin/coverage.svg?branch=master)](https://codecov.io/github/kamkozlowski/gradle-mustache-plugin?branch=master)
+[![Code Coverage](https://img.shields.io/codecov/c/github/kamkozlowski/gradle-mustache-plugin/master.svg)](https://codecov.io/github/kamkozlowski/gradle-mustache-plugin?branch=master)
 
 Gradle plugin can be used to process mustache templates during build. This project is a port of [mustache-maven-plugin](https://github.com/wouterd/mustache-maven-plugin) which provides similar functionality but for maven build system.
 
