@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'jacoco'
 
 dependencies {
     compile gradleApi()
@@ -30,3 +31,12 @@ jar {
         attributes['Implementation-Vendor'  ] = 'Kamil Kozlowski'
     }
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+}
+
+check.dependsOn jacocoTestReport
