@@ -1,4 +1,4 @@
-# gradle-mustache-plugin
+# mustache-gradle-plugin
 [![Build Status](https://travis-ci.org/kamkozlowski/gradle-mustache-plugin.svg?branch=master)](https://travis-ci.org/kamkozlowski/gradle-mustache-plugin)
 [![Code Coverage](https://img.shields.io/codecov/c/github/kamkozlowski/gradle-mustache-plugin/master.svg)](https://codecov.io/github/kamkozlowski/gradle-mustache-plugin?branch=master)
 
